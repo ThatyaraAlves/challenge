@@ -102,7 +102,7 @@ const LoginPage: React.FunctionComponent<ILoginPageProps> = (props) => {
                     disabled={authing}
                     className={classes.mediaButton}
                 >
-                    <img src={apple} alt="Facebook" />
+                    <img src={apple} alt="apple" />
                 </button>
                 <button
                     onClick={() => signInWithFacebook()}
@@ -116,7 +116,7 @@ const LoginPage: React.FunctionComponent<ILoginPageProps> = (props) => {
                     disabled={authing}
                     className={classes.mediaButton}
                 >
-                    <img src={google} alt="Facebook" />
+                    <img src={google} alt="google" />
                 </button>
                 </div>
 

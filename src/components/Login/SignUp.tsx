@@ -6,6 +6,7 @@ import facebook from '../../assets/FacebookAuth.svg'
 import google from '../../assets/google.png'
 import mailIcon from '../../assets/mail.svg'
 import lockIcon from '../../assets/lock.svg'
+import apple from '../../assets/apple-seeklogo.com.png'
 export interface ISignupPageProps {}
 
 const SignupPage: React.FunctionComponent<ISignupPageProps> = (props) => {
@@ -84,7 +85,7 @@ const signInWithFacebook = async () => {
                         />
                     </div>
 
-          <button
+            <button
             type="submit"
             disabled={authing}
             className={classes.signInButton}
@@ -93,6 +94,12 @@ const signInWithFacebook = async () => {
           </button>
         </form>
         <div className={classes.socialButtons}>
+        <button
+            onClick={() => signInWithGoogle()}
+            disabled={authing}
+            className={classes.mediaButton}>
+            <img src={apple} alt="apple" />
+        </button>
           <button
             onClick={() => signInWithGoogle()}
             disabled={authing}
