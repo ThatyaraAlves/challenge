@@ -1,0 +1,142 @@
+.debug {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+.contentWithMargin{
+    margin-bottom: 80px;
+}
+.reviewList {
+    color: var(--colors-default, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.reviewQuantity {
+    margin-top: 1.50rem;
+    margin-bottom: 1.75rem;
+    width: 83%;
+    align-self: center;
+line-height: 1.25rem; /* 125% */
+letter-spacing: 0.0125rem;
+}
+
+.imageContainer {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 0.625rem;
+    background: var(--colors-grey-light-1, #F6F6F6);
+    display: flex;
+    width: 17.8125rem;
+    padding: 3.27394rem 1.1875rem 3.33238rem 1.1875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.image {
+    width: 85%;
+    height: 85%;
+    /* object-fit: contain; */
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+}
+
+.reviewList {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.0625rem;
+    margin-bottom: 3rem;
+}
+
+.reviewFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.9375rem;
+    box-sizing: border-box;
+    align-self: center;
+    width: 92%;
+    max-width: 375px;
+    /* background-color: rgb(196, 248, 255); */
+}
+
+.reviewContent {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9375rem;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+    
+}
+
+.reviewImage {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+}
+
+.reviewUser {
+    line-height: 1.10rem;
+    margin-bottom: -0.50rem; 
+    /* 125% */
+    letter-spacing: 0.0125rem;
+}
+
+.ratingImage {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+}
+
+.reviewDescription {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    /* 142.857% */
+    letter-spacing: 0.0125rem;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+}
+.cartButton{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    background: #0ACF83;
+    background-color: #0acf83;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    align-items: center;
+    position: fixed;
+    bottom: 20px; /* Posição vertical do botão em relação ao bottom da tela */
+    right: 20px; /* Posição horizontal do botão em relação ao right da tela */
+    z-index: 999; 
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}

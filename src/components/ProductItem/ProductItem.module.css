@@ -1,0 +1,78 @@
+.card {
+    display: flex;
+    height: fit-content;
+    width: 8.5rem;
+    contain: content;
+    align-items: center;
+    padding: 15px 10px;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0.93rem;
+    background: #FFF;
+    /*var(--colors-white, #FFF);*/
+    flex-shrink: 1;
+    /* Effect / Shadow */
+    box-shadow: 0px 4px 30px 0px rgba(104, 117, 130, 0.05);
+}
+
+.imageCard {
+    align-content: center;
+    /* background-color: aqua; */
+     width: 7.8125rem;
+    height: 7.8125rem;
+    flex-shrink: 0;
+    /* background-color: #aef2cb46; */
+    border-radius: 1rem;
+}
+
+.imageSizing {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.textContainer {
+    text-align: start;
+    /* background-color: blueviolet;  */
+    display: flex;
+    /* width: 8.0rem; removi pois o texto mockado quebra a linha */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem; 
+
+
+    color: var(--colors-default, #000);
+    font-family: DM Sans;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+    
+}
+
+.title {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.price {
+    color: var(--colors-default, #000);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.0125rem;
+}
+
+.text {
+    /* background-color: royalblue; */
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

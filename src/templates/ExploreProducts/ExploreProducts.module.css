@@ -1,0 +1,128 @@
+.ExploreProducts {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.filterContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;  
+}
+.label{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+    color: black;
+}
+.title{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.2px;
+    color: black;
+    margin-bottom: 20px;
+    
+
+}
+.category{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.2px;
+  margin-right: auto; /* Adicionando esta linha */
+
+}
+.sear{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.2px;
+
+}
+.filterTitle{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  right: 26%;
+  bottom: 4%;
+  margin-bottom: 16px;
+}
+.categoryButtons{
+    display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.categoryButton {
+    display: flex;
+  height: 25px;
+  padding: 10px 15px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #7F7F7F;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+
+}
+.categoryButton.active {
+    background-color: #0ACF83;
+    color: #ffffff;
+  }
+  .buttons{
+    display: flex;
+    display: flex;
+    gap: 13px;
+    box-sizing: border-box;
+    flex-flow: wrap;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .sortButton{
+    
+    height: 39px;
+    padding: 10px 15px;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #7F7F7F;
+    border: none;
+     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: #7F7F7F 1px solid;
+  }
+  .sortButton.active {
+    background-color: #0ACF83;
+    color: #ffffff;
+    border: none;
+  }
+  .btnSubmit{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    background: #0ACF83;
+    background-color: #0acf83;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,38 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 15%;
+    padding: 0.625rem 0.9375rem;
+    justify-content: center;
+   align-items: center;
+   
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid var(--colors-grey, #BABABA);
+    cursor: pointer;
+}
+
+.customButton {
+    background: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .customButton:hover,
+  .customButton:focus {
+  }
+  
+
+
+.green {
+    background-color: var(--colors-green, #00A650);
+    color: var(--colors-white, #FFFFFF);
+}
+
+.white {
+    background-color: var(--colors-white, #FFFFFF);
+    color: var(--colors-black, #000000);
+}

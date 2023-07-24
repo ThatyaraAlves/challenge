@@ -1,0 +1,92 @@
+.productItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.productsList{
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+    
+
+}
+
+.productImageContainer {
+    flex-shrink: 0;
+    width: 90px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productDetails {
+    flex-grow: 1;
+}
+
+.productName {
+    margin-bottom: 5px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.productPrice {
+    margin-bottom: 5px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.productRating {
+    color: #000000;
+    margin-bottom: 5px;
+    display: inline-flex;
+    gap: 3px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+
+
+
+}
+
+.productReview {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+}
+
+.productReviewCount {
+    font-size: 14px;
+    color: #000000;
+    margin-left: 0px;
+    display: inline-flex;
+    gap: 5px;
+}
+
+.dotIcon {
+    position: relative;
+    left: 98px;
+}

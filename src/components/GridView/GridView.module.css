@@ -1,0 +1,16 @@
+.grid {
+    margin-top: 2.31rem;
+    border-radius: 1.875rem 1.875rem 0rem 0rem;
+    background: var(--colors-grey-light-2, #F3F3F3);
+    width: 88%;
+    max-width: 88%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+   
+}
+

@@ -1,0 +1,127 @@
+.searchContainer{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.searchBar{
+display: flex;
+width: 90%;
+height: 45px;
+padding: 0px 15px;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid var(--colors-grey, #BABABA);
+background: var(--colors-white, #FFF);
+box-sizing: border-box;
+
+}
+.searchIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  .searchInput::placeholder {
+    color: #BABABA;
+    
+  }
+
+  /* SearchPage.module.css */
+
+.productList {
+  list-style-type: none;
+  padding: 0;
+  
+}
+.products{
+  padding: 20px;
+}
+.productItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productImageContainer {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productDetails {
+  flex-grow: 1;
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.productRating {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+  display: inline-flex;
+  gap: 3px;
+
+  
+}
+.productReview{
+  font-size: 14px;
+  color: #000000;
+  margin-left: 5px;
+  display: inline-flex;
+
+}
+.popularProduct{
+  font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.2px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.productReviewCount {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 0px;
+  display: inline-flex;
+  gap: 5px;
+}
+.dotIcon{
+  position: relative;
+  left: 120px;
+}
+.link{
+  text-decoration: none;
+  color: #000000;
+}
+/* Add any additional styling as needed */

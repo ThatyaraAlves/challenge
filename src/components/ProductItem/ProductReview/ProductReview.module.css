@@ -1,0 +1,37 @@
+/* Esse e o flex container */
+.review {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    /* background-color: rgba(94, 44, 139, 0.082); */
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.starContainer {
+    /* background-color: rgba(192, 49, 173, 0.329); */
+    gap: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Esse e os demais sao flex item */
+/* .starImageContainer {
+     background-color: yellow; 
+} */
+
+.starsNumber {
+    font-size: 0.6rem;
+     /* background-color: rgba(255, 255, 0, 0.301);  */
+}
+
+.imageSizing {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.totalReviewsText {
+    font-size: 0.6rem;
+}
